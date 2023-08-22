@@ -1,0 +1,65 @@
+/* font-family: 'Titillium Web', sans-serif; */
+:root{
+    --mainColor:#24353F;
+    --secColor:#17A2B8;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+h1{
+    color:var(--secColor) ;
+    font-size:40px;
+}
+.login,body,.form-control,.welcome{
+    background-color:var(--mainColor) ;
+}
+.login,.welcome,.navbar{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.form-control:focus{
+    background-color: var(--mainColor);
+    border-color: var(--secColor);
+    box-shadow: none;
+    color: #fff;
+}
+#btn{
+    border: 1px solid #17A2B8 !important;
+    color: var(--secColor) !important;
+    /* transition: 0.5s all !important; */
+}
+#btn:hover{
+    background-color: var(--secColor) !important;
+    color: #fff !important;
+}
+a{
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: underline !important;
+}
+.navbar-brand{
+    margin-left: 80px;
+}
+.nav-item{
+    margin-right: 80px;
+    border: 1px solid #FFC107;
+    border-radius: 5px;
+    transition: 0.5s all;
+}
+.nav-item:hover{
+    background-color: #FFC107;
+}
+.nav-item:hover .nav-link{
+    color: #fff !important;
+}
+.nav-link{
+    color: gray;
+}
+input::placeholder{
+    color: #fff !important;
+}
+
+
+
+
